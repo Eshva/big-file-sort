@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Copyright>Copyright (c) 2022 Mike Eshva</Copyright>
+    <Company>Mike Eshva</Company>
+    <Version>1.1.1</Version>
+    <AssemblyTitle>Big text file sorter. Lines should be in format: '&lt;number&gt;. &lt;string&gt;'. First sort by string, then be number.</AssemblyTitle>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.9.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\BigFile.Common\BigFile.Common.csproj" />
+  </ItemGroup>
+
+</Project>

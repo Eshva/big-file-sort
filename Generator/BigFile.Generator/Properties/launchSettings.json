@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "BigFile.Generator": {
+      "commandName": "Project",
+      "commandLineArgs": "-f Z:\\Temporary\\big-file\\big-file.txt -l 100000",
+      "workingDirectory": "Z:\\Temporary\\big-file"
+    }
+  }
+}

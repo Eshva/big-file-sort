@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\BigFile.Tests.Common\BigFile.Tests.Common.csproj" />
+    <ProjectReference Include="..\Stage1\BigFile.Sorter.Stage1\BigFile.Sorter.Stage1.csproj" />
+    <ProjectReference Include="..\Stage2\BigFile.Sorter.Stage2\BigFile.Sorter.Stage2.csproj" />
+    <ProjectReference Include="..\Stage3\BigFile.Sorter.Stage3\BigFile.Sorter.Stage3.csproj" />
+    <ProjectReference Include="..\Stage4\BigFile.Sorter.Stage4\BigFile.Sorter.Stage4.csproj" />
+  </ItemGroup>
+
+</Project>

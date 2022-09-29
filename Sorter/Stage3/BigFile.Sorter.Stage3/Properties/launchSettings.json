@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "BigFile.Sorter": {
+      "commandName": "Project",
+      "commandLineArgs":
+        "--file Z:\\Temporary\\big-file\\big-file.txt --temp-files 10 --k-way-factor 5 --builder-buffer 16ki --merger-buffer 16ki",
+      "workingDirectory": "A:\\Data\\temp\\big-file"
+    }
+  }
+}
